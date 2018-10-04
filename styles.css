@@ -24,7 +24,6 @@ html {
     color: rgba(18,22,26,0.7);
     width: 120px;
     height: 120px;
-    text-align: center;
     vertical-align: middle;
     line-height: 120px;
     position: fixed;
@@ -34,6 +33,11 @@ html {
     margin-left: -60px;
     opacity: 1;
     z-index: -100;
+}
+
+#letter p {
+    text-align: center;
+
 }
 
 #description {
@@ -47,6 +51,11 @@ html {
     text-align: center;
     font-size: 11px;
     letter-spacing: 1px;
+}
+
+#description a {
+    color: rgba(18,22,26,0.7);
+    text-decoration: none;
 }
 
 #animation {
